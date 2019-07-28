@@ -64,7 +64,7 @@
                     </template>
                     <span v-if="!innerclosed" class="base-line"></span>
                 </div>
-                <p v-if="!innerclosed " class="last-line">
+                <p v-if="!innerclosed && length" class="last-line">
                     <span>{{subfix}}</span>
                 </p>
             </div>
@@ -73,7 +73,7 @@
     </div>
 </template>
 <script>
-import jsonView from './jsonView';
+import jsonView from './jsonView'
 export default jsonView
 </script>
 <style scoped lang="less">

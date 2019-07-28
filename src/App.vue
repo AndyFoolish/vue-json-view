@@ -160,6 +160,7 @@
                         width: 80px;
                         height: 28px;
                         background: #fff;
+                        font-size: 12px;
                     }
                 }
             }
